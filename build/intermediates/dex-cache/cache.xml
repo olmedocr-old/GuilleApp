@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/19ae0464189e265080bff505e31e441254b0cd11/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dc3e5f95739855e99858edb11bbb6e41bd61446c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/8503dab2eedb46a86813c184bec4f2afc1e93c4c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17751c8671640a3f0089dfb1f28967b6983ac9e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/fb271a07c122d69933c9f7fcad1c4c5834971767/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dde0abe47ce50e8fe9ab786ed3b3087fcbea4b5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/596c966026f6f66318db5684ebfef2b71a385f84/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94fca868854457ede6df15c902938468c71d579e">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ca3df7fe403c1aad59f88be78f3ee7c400e0a80/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/816ac59f0d7e933381a0ae805390826ad3e9ee76/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca5ae75689fabc66067b818cb03a7a087e39177f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/d61d78f43fa637df526a7098683f6acc74cc143e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a99f12431ba13c9c44a99f15004b6763444a10dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/a2bf90a8c9e0b8a92912a46fd6e106cf003a63dc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d97f3c0f148bdacae5f9c69324a7082c909354dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/0bcc76e5e8b6c3b76f745ffc89eaf46670fe7f06/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d164ba557495935af83f7d1a04f5993c82adac69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/b3979fa91e32d664fa30a49113844f0a130e2522/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_75364fcbfea83ff4c6644a3932f42347b90e6b95/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_3c88c8b88b3b0d2ab4b9f2e97013ce14a301b78c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3889c112ed0e9c6561a1f7352fc8007a9cc3a56">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fb855adad96701fe1e0e1ec8cebdad521183e39c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/.android/build-cache/a2bf90a8c9e0b8a92912a46fd6e106cf003a63dc/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_56f615d07eaff816461c2cfef6b04eed97dea3fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/raul/Documents/ProgrammingProjects/AndroidStudioProjects/GuilleApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f286967960d2f402c0a0f1d0205566892def89b7/classes.dex" />
+    </item>
+
+</items>

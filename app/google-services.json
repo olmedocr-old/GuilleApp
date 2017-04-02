@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "62696836595",
+    "firebase_url": "https://guilleapp-ff809.firebaseio.com",
+    "project_id": "guilleapp-ff809",
+    "storage_bucket": "guilleapp-ff809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62696836595:android:754a69dd974ad692",
+        "android_client_info": {
+          "package_name": "com.example.raul.guilleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62696836595-eb0qus0natt19k30486lkv9f23c2hnd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5QQwF-1t6-H6-R_lIbe_chNWvBZzNZJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
