@@ -4,25 +4,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
-import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
 
     List<Phrase> phraseList = new ArrayList<>();
-    RecyclerView recyclerView;
+
     //TODO el llenado del recycler ocurre antes de llenar la base de datos
 
     @Override
@@ -30,8 +26,19 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        DatabaseReference mDatabase;
+        readFromDatabase();
 
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+
+        //DO IT ONLY ONCE TO POPULATE THE DB
+        //writeOnDatabase();
+
+
+    }
+
+    public void readFromDatabase(){
+        DatabaseReference mDatabase;
         mDatabase = FirebaseDatabase.getInstance().getReference();
         mDatabase.child("Phrases").addListenerForSingleValueEvent(
                 new ValueEventListener() {
@@ -41,10 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
                             Phrase phrase = postSnapshot.getValue(Phrase.class);
                             phraseList.add(phrase);
-                            //Date es phrase en remote y phrase es date en remote... TODO
                         }
-                        PhraseRecyclerAdapter adapter = new PhraseRecyclerAdapter(phraseList);
-                        recyclerView.setAdapter(adapter);
                     }
                     @Override
                     public void onCancelled(DatabaseError databaseError) {
@@ -52,14 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 });
 
-        recyclerView = (RecyclerView) findViewById(R.id.recycler);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        //writeOnDatabase();
-
-
     }
-
 
     public void writeOnDatabase(){
         //RUN ONLY ONCE
