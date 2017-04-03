@@ -1,7 +1,5 @@
 package com.example.raul.guilleapp;
 
-import java.util.Date;
-
 /**
  * Created by raul on 2/4/17.
  */

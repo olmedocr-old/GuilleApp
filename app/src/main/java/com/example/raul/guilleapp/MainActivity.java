@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -26,14 +27,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.i("GuilleApp", "onCreate: activity created, readFromDatabase method to be executed");
+
         readFromDatabase();
+        //DO IT ONLY ONCE TO POPULATE THE REMOTE DATABASE
+        //writeOnDatabase();
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
 
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        Log.i("GuilleApp", "onStart: recyclerView setup completed: "+recyclerView);
 
-        //DO IT ONLY ONCE TO POPULATE THE DB
-        //writeOnDatabase();
-
+        PhraseRecyclerAdapter adapter = new PhraseRecyclerAdapter(phraseList);
+        recyclerView.setAdapter(adapter);
+        Log.i("GuilleApp", "onStart: recyclerAdapter successfully set");
 
     }
 
@@ -55,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         //Toast.makeText(getApplicationContext(),"Failed to read from database",Toast.LENGTH_SHORT).show();
                     }
                 });
+        Log.i("GuilleApp", "readFromDatabase: Database read completed");
 
     }
 
