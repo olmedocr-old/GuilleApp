@@ -9,10 +9,13 @@ import java.util.Date;
 public class Phrase {
     private String phrase, date, punctuation;
 
-    public Phrase(String phrase, String date, String punctuation) {
+    public Phrase(String date, String phrase, String punctuation) {
         this.phrase = phrase;
         this.date = date;
         this.punctuation = punctuation;
+    }
+
+    public Phrase() {
     }
 
     public String getPhrase() {
