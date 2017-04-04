@@ -35,14 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-
-        readFromDatabase();
-
-    }
-
     public void readFromDatabase(){
         DatabaseReference mDatabase;
 
