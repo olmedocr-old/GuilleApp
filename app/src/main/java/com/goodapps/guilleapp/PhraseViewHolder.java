@@ -27,6 +27,6 @@ public class PhraseViewHolder extends RecyclerView.ViewHolder {
     public void bind(Phrase phrase) {
         textViewPhrase.setText(phrase.getPhrase());
         textViewDate.setText(phrase.getDate());
-        textViewPunctuation.setText(phrase.getPunctuation());
+        textViewPunctuation.setText(phrase.getPunctuation()+"/10");
     }
 }
