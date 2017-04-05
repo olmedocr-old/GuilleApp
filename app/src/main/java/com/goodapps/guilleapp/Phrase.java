@@ -5,9 +5,10 @@ package com.goodapps.guilleapp;
  */
 
 public class Phrase {
-    private String phrase, date, punctuation;
+    private String phrase, date;
+    private int punctuation;
 
-    public Phrase(String date, String phrase, String punctuation) {
+    public Phrase(String date, String phrase, int punctuation) {
         this.phrase = phrase;
         this.date = date;
         this.punctuation = punctuation;
@@ -24,7 +25,7 @@ public class Phrase {
         return date;
     }
 
-    public String getPunctuation() {
+    public int getPunctuation() {
         return punctuation;
     }
 
